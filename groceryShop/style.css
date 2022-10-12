@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    /* align-items: center; */
+    background-color: rgb(110, 239, 183);
+    height: 5rem;
+  
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.logo #bag{
+  /* list-style: none; */
+  size: 150px;
+}
+.searchItem{
+    display: flex;
+   
+    position: absolute;
+    right: 8rem;
+    top: 20px;
+}
+.searchItem input{
+    width: 14rem;
+    height: 2rem;
+    
+}
+.searchItem li{
+    list-style: none;
+    background-color: rgb(16, 16, 157);
+    width: 3rem;
+    /* padding-left: 6px; */
+}
+#ser{
+    color: aliceblue;
+    position: relative;
+    top: 8px;
+    left: 1rem;
+}
